@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Git-Search</title>
+        <link rel="stylesheet" href="./devsoc.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+ 
+    </head>
+    <body>
+        <canvas id="interactiveCanvas"></canvas>
+    
+        <main>
+            <div class = "parent">
+                <img src='https://i.stack.imgur.com/l60Hf.png' class="pfp" id="pfp">
+                 <div class="form-container">
+                 <form id="myForm" autocomplete="off">
+                    <div class="form-group">
+                        <input type = "text" class="form-control" id="search" placeholder="Search Username" required>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-danger btn-block">
+                            Search User
+                        </button>
+                    </div>
+                </div>
+                 <div class = "details">
+                    <div class = "info">
+                        <p>Name</p>
+                        <div id="name">-</div>
+                    </div>
+                    <div class = "info">
+                        <p>Repos</p>
+                        <div id="repos">-</div>
+                    </div>
+                    <div class = "info">
+                        <p>Followers</p>
+                        <div id="followers">-</div>
+                    </div>
+                    <div class = "info">
+                        <p>Location</p>
+                        <div id="location">-</div>
+                    </div>
+                    <div class = "info">
+                        <p>Email</p>
+                        <div id="email">-</div>
+                    </div>
+                    <div class = "info">
+                        <p>Following</p>
+                        <div id="following">-</div>
+                    </div>
+                 </div>
+
+            </div>
+        </main>
+        <script src="devsoc2.js"></script>
+    </body>
+
+</html>
